@@ -6,7 +6,7 @@ function App() {
     {
       title: "Iga kate nakl kinum",
       artist: "Safo Alifshoev",
-      img_src: "./images/titaliya.jpg",
+      img_src: "./images/Safo Alifshoev.jpg",
       src: "./music/Muqom - Track 13.mp3",
     },
     {
