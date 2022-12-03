@@ -56,7 +56,7 @@ function Player(props) {
         controls
       ></audio>
       <p>
-        Next up:{" "}
+        Next song:{" "}
         <span>
           {props.songs[props.nextSongIndex].title} by{" "}
           {props.songs[props.nextSongIndex].artist}
