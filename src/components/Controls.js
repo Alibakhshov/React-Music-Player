@@ -5,7 +5,6 @@ function Controls() {
   // Global State
   const {
     currentSong,
-    songs,
     nextSong,
     prevSong,
     repeat,

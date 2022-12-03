@@ -1,5 +1,5 @@
 import React from 'react'
-import playerContext from '../../context/playerContext'
+//import playerContext from '../../context/playerContext'
 
 function Header() {
   //const { currentSong, songs } = useContext(playerContext)
