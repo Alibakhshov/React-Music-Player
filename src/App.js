@@ -4,10 +4,10 @@ import Player from "./components/Player";
 function App() {
   const [songs] = useState([
     {
-      title: "Titaliya",
-      artist: "Hardy Sandhu",
+      title: "Iga kate nakl kinum",
+      artist: "Safo Alifshoev",
       img_src: "./images/titaliya.jpg",
-      src: "./music/Titliaan Warga.mp3",
+      src: "./music/Muqom - Track 13.mp3",
     },
     {
       title: "Nach Meri Rani",
