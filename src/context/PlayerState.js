@@ -102,4 +102,4 @@ const PlayerState = (props) => {
   )
 }
 
-export default PlayerState
+export default PlayerState;

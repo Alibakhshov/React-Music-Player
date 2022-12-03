@@ -29,4 +29,4 @@ function AudioPlayer() {
   )
 }
 
-export default AudioPlayer
+export default AudioPlayer;
