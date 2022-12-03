@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-html{
+/* html{
   min-width: 800px;
-}
+} */
 
 body {
   margin: 0;
@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-color: #e3e3e3;
+  background-color: #e3e3e300;
 }
 
 button {
@@ -29,9 +29,9 @@ button {
   font-size: 1.5em;
 }
 
-.no_drag {
+/* .no_drag {
   -webkit-app-region: no-drag;
-}
+} */
 
 .hide {
   display: none;
@@ -44,16 +44,16 @@ button {
   /* overflow-x: hidden; */
 }
 
-.windowCtr {
+/* .windowCtr {
   display: flex;
   background: #383838;
   color: white;
   padding: 2px;
-}
+} */
 
-span.appName {
+/* span.appName {
   flex: 1 1;
-}
+} */
 
 span.closeW {
   width: 22px;
@@ -69,11 +69,13 @@ span.minW {
 
 .top {
   width: 80vw;
+  height: 100vh; 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   flex-grow: 1;
   padding-bottom: 120px;
+
 }
 
 .left {
@@ -89,7 +91,7 @@ span.minW {
   flex-direction: column;
 }
 
-.graphics img {
+/* .graphics img {
   border-radius: 100%;
   box-shadow: 0 0 3px 0 hsla(0, 0%, 46.7%, .72);
   height: 60vh;
@@ -104,35 +106,36 @@ span.minW {
   justify-content: center;
   align-items: center;
   flex: 1 1;
-}
+} */
 
-header h3 {
+/* header h3 {
   font-weight: bold;
   margin: 0;
   padding: 10px;
   background: #4AA9DE;
   color:white;
-}
+} */
 
-.actions {
+/* .actions {
   background: #3a3a3a;
   color:white;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+} */
 
 .actions button {
   background: none;
-  border: none;
-  color: white;
-  -webkit-user-select: none;
-  user-select: none;
+  /* border: none; */
+  color: rgb(0, 255, 76);
+  /* -webkit-user-select: none; */
+  /* user-select: none; */
   width: 32px;
   height: 22px;
   cursor: pointer;
   margin: 0 10px ;
 }
+
 .action_btns{
   display: flex;
   flex-direction: row;
@@ -369,11 +372,15 @@ header h3 {
 
 .songartistName{
   font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
 }
-#prgbar {
+
+/* .prgbar {
   background: transparent;
   width: 100%;
-}
+} */
 
 .plsoptions {
   display: flex;
@@ -386,17 +393,21 @@ header h3 {
   border-bottom: 3px solid transparent;
 }
 
+
 .plsoptions span:hover {
-  color: #2A6586;
+  color: white;
 }
 
 .plsoptions span.active {
-  color: rgb(95 181 233);
-  border-bottom: 3px solid rgb(95 181 233);
+  color: white;
+  border-bottom: 30px solid white;
   border-radius: 4px;
 }
 
 .currentT, .totalT {
   width: 35px;
   margin: 0 10px;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
 }
