@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
   box-sizing: border-box;
 }
+
 html{
   min-width: 800px;
 }
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -12,8 +15,8 @@ body {
   justify-content: center;
   height: 100vh;
   background-color: #e3e3e3;
-  
 }
+
 button {
   background: none;
   border: none;
@@ -23,8 +26,7 @@ button {
 }
 
 .draggable {
-  -webkit-app-region: drag;
-  user-select: none;
+  font-size: 1.5em;
 }
 
 .no_drag {
@@ -210,18 +212,29 @@ header h3 {
   padding: 0 10px;
   font-weight: 600;
   font-size: 1.125rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
 }
+
 .songauthors {
   padding: 0 10px;
   font-weight: normal;
   color: #555;
   font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
 }
+
 .song_duration{
   color:#555;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  padding: 0 10px;
 }
+
 .fav_song{
-  color: red;
+  color: rgb(0, 255, 76);
   margin-right: 5px;
 }
 
@@ -230,7 +243,7 @@ header h3 {
   flex-direction: row;
   height: 110px;
   background: #3a3a3a;
-  color: white;
+  color: rgb(0, 255, 76);
   align-items: center;
   width: 100vw;
   position: fixed;
