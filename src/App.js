@@ -7,7 +7,7 @@ function App() {
       title: "Iga kate nakl kinum",
       artist: "Safo Alifshoev",
       img_src: "./images/Safo Alifshoev.jpg",
-      src: "./music/Muqom - Track 13.mp3",
+      src: "./music/Muqom - Iga kate nakl kinum.mp3",
     },
     {
       title: "Nach Meri Rani",
