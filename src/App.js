@@ -36,7 +36,7 @@ function App() {
     {
       title: "Ar marde dithod",
       artist: "Sashi Zaifi",
-      img_src: "./images/Sashi Zaifi1.jpg",
+      img_src: "./images/Sashi Zaifi 1.jpg",
       src: "./music/Sashi Zaifi - Ar marde dithod.mp3",
     }
   ]);
