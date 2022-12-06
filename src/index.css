@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(0deg,rgba(195, 126, 34, 1) 0%,rgba(234, 253, 45, 0.5) 100%);
+  background: linear-gradient(0deg,rgb(114, 110, 105) 0%,rgb(140, 141, 140) 100%);
 }
 
 .App {
@@ -19,7 +19,7 @@ body {
 
 .c-player {
   display: block;
-  background-image: linear-gradient(to bottom, violet, indigo);
+  background-image: linear-gradient(to bottom, rgb(109, 102, 109), rgb(113, 107, 117));
   margin: 0px auto;
   padding: 30px;
   border-radius: 16px;
@@ -73,7 +73,7 @@ body {
   right: -25px;
   bottom: -25px;
   border-radius: 50%;
-  border: 3px dashed rgba(255, 206, 0, 1);
+  border: 3px dashed #4575f8;
 }
 
 .c-player--details .details-title {
@@ -112,8 +112,8 @@ body {
     inset 4px 4px 10px rgba(255, 255, 255, 0.4);
   border: none;
   outline: none;
-  background-color: #ffce00;
-  color: #fff;
+  background-color: #4575f8;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   cursor: pointer;
 }
@@ -141,7 +141,7 @@ body {
 
 .c-player--controls .skip-btn:hover {
   transition: 0.5s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.5);
   color: white;
   background-color: inherit;
 }
