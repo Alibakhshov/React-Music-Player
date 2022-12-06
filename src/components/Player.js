@@ -42,7 +42,7 @@ function Player(props) {
 
   return (
     <div className="c-player">
-      <h4>Playing now</h4>
+      <h2>Kooh Music</h2>
       <Details song={props.songs[props.currentSongIndex]} />
       <Controls
         isPlaying={isPlaying}
