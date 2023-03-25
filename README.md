@@ -27,16 +27,18 @@ This is a simple music player built using React. It allows users to play, pause,
 2. Update the `src/App.js` file with the details of your music files.
 3. Start the app: `npm start`
 
-## Technologies Used
+## Contributions
 
-- React
-- HTML5
-- CSS3
+Anyone can contribute to this repository. If you want to contribute, please follow the steps below:
 
-## Contributing
+1. Fork this repository
+2. Clone the forked repository
+3. Create a new branch
+4. Make changes to the code
+5. Commit the changes
+6. Push the changes to the forked repository
+7. Create a pull request
+8. Wait for the pull request to be merged
+9. Repeat steps 1-8
 
-If you find any bugs or have suggestions for improvement, please create an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<p align="right"><a href="#top">back to top</a></p>
