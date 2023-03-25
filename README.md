@@ -16,14 +16,14 @@ This is a simple music player built using React. It allows users to play, pause,
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/username/react-music-player.git`
+1. Clone the repository: `git clone ``https://github.com/Alibakhshov/KoohMusic``
 2. Install dependencies: `npm install`
 3. Start the app: `npm start`
 
 ## Usage
 
 1. Add your music files to the `public/music` folder.
-2. Update the `src/data/tracks.js` file with the details of your music files.
+2. Update the `src/App.js` file with the details of your music files.
 3. Start the app: `npm start`
 
 ## Technologies Used
