@@ -5,6 +5,7 @@ This is a simple music player built using React. It allows users to play, pause,
 ## Screenshots
 
 <img src="public/images/demo1.png" alt="demo1">
+<img src="public/images/demo2.png" alt="demo2">
 
 ## Features
 
