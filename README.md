@@ -2,9 +2,9 @@
 
 This is a simple music player built using React. It allows users to play, pause, skip, and shuffle tracks. 
 
-## Demo
+## Screenshots
 
-![React Music Player Demo](demo.gif)
+<img src="public/images/demo1.png" alt="demo1">
 
 ## Features
 
@@ -16,7 +16,7 @@ This is a simple music player built using React. It allows users to play, pause,
 
 ## Installation
 
-1. Clone the repository: ``git clone https://github.com/Alibakhshov/KoohMusic``
+1. Clone the repository: `git clone https://github.com/Alibakhshov/KoohMusic`
 2. Install dependencies: `npm install`
 3. Start the app: `npm start`
 
